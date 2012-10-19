@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #F2FFE6;
+	font:Arial;
+}
+td {
+	background-color:#FFFFE6;
+	padding-left:10px;
+}
+input {
+	background-color:#E9FFB9;
+	text-align: right;
+	padding-right:10px;
+}  
+.suma {
+	background-color:#DDF4FF;
+	text-align: left;
+	font-weight: bold;
+}
+.rubro { padding-left:40px;
+	margin-top:5px;
+	margin-bottom:5px;
+	background-color:#D8F9CA;
+}
+div { display:none;
+}
+

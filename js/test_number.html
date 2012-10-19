@@ -1,0 +1,24 @@
+<html>
+<head>
+<script type="text/javascript">
+function davalor(n){
+	if (n==""){return 0;}
+	else {n=n.replace(/'/g,"");n=n.replace(/,/g,"");alert(n); return parseFloat(n);	}
+}
+function displayDate()
+{
+document.getElementById("demo").innerHTML=davalor('-,,,789');
+}
+</script>
+</head>
+<body>
+
+<h1>My First Web Page</h1>
+<p id="demo">This is a paragraph.</p>
+
+<button type="button" onclick="displayDate()">Display Date</button>
+
+</body>
+</html> 
+
+

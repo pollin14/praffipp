@@ -1,0 +1,154 @@
+body {
+  background-color: #ffffff;
+  font-family: Calibri;
+  font-size: 11pt;
+  color: #6C6C6C;
+  margin: 0 0 0 0
+}
+h2{
+  font-family: calibri;
+  color: #004282;
+  font-size: 16pt
+}
+
+h3{
+  font-family: calibri;
+  color: #5B5B5B;
+  font-size: 14pt
+}
+
+table{
+  border: none;
+  margin: 0
+}
+td{
+  padding-left:5px;
+  padding-right:5px;
+}
+.TblInterna{
+  width:960px;
+  padding-left:15px;
+}
+
+.custom_tr{
+  background-color: #DAE5F2;
+}
+.dato{
+  text-align:right;
+  /*border: 1px solid #CCCCCC;*/
+}
+td{
+  font-family: calibri;
+  font-size: 11pt;
+  color: #6C6C6C;
+}
+
+a {
+  color: #004282;
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #004282
+}
+
+a:visited{
+  color: #52719B;
+  text-decoration: none
+}
+
+.colheader {
+  font-family: Calibri;
+  font-size: 12pt;
+  color: #DDDDDD;
+  font-weight: bold;
+  padding-bottom: 2;
+  padding-top: 2;
+  background: url(../img/bgcolheader.jpg)
+}
+
+.colfooter {
+  font-family: Calibri;
+  font-size: 12pt;
+  color: #000000;
+  font-weight: bold;
+  padding-bottom: 2;
+  padding-top: 2;
+  background: url(../img/bgcolfooter.jpg)
+}
+
+input {
+  background: #FFFFFF;
+  /*border: 1px solid #CCCCCC;*/
+  border:none;
+  color: #004282;
+  font-family: Calibri;
+  font-size: 10.5pt
+}
+
+.editable{ 
+  text-align:right;
+  border: 1px solid #CCCCCC;
+}
+
+.editpass{ 
+  text-align:left;
+  border: 1px solid #CCCCCC;
+}
+
+.option {
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  color: #004282;
+  font-family: Calibri;
+  font-size: 10.5pt
+}
+
+.btn {
+  background-image: url(../img/bgcolheader.jpg);
+  border: 1 ridge #CCCCCC;
+  color: #FFFFFF;
+  font-family: Calibri;
+  font-weight: bold;
+  padding: 3px;
+  font-size: 10pt;
+  text-align: center
+}
+
+div { display:none; /*block, none*/
+}
+
+.suma {
+	/*background-color:#DAE5F2;*/
+	background-color:#FFBA55;
+	text-align:right;
+	/*font-weight: bold;*/
+}
+.enlace_imagen{
+	color:#ffffff;
+	font-size: 8pt;
+	font-family: verdana;
+	text-decoration: none;
+}
+.tabla_mensaje {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	background-color: #CCC;
+	border: thin solid #333;
+}
+
+.btn_mensaje {
+	font-family: "Times New Roman", Times, serif;
+	background-color: #999;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333;
+	border-right-color: #333;
+	border-bottom-color: #333;
+	border-left-color: #333;
+	border-width: thin;
+}
